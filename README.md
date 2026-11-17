@@ -64,5 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-WFH Alert is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.wfhalert.com
+WFH Alert provides a daily curated email service that delivers manually reviewed remote job listings, focusing on entry‑level, work‑from‑home opportunities. The team screens each posting to ensure legitimacy, requiring little or no experience and no degree, and primarily serves U.S. applicants while also offering some international roles. By filtering out scams and hybrid positions, WFH Alert helps job seekers find practical remote work such as data entry, customer service, administration, and scheduling.
+
+**Areas:** Remote Jobs · Job Alerts · Entry-Level · Data Entry · Customer Service
+
+## WFH Alert on APIs.io
+
+Everything profiled for WFH Alert is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/wfhalert-com/](https://apis.io/providers/wfhalert-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [WFH Alert Health API](https://apis.io/apis/wfhalert-com/wfhalert-com-health-api/) — The Health API from WFH Alert — 1 operation(s) for health.
+- [WFH Alert Integrations API](https://apis.io/apis/wfhalert-com/wfhalert-com-integrations-api/) — The Integrations API from WFH Alert — 1 operation(s) for integrations.
+- [WFH Alert Jobs API](https://apis.io/apis/wfhalert-com/wfhalert-com-jobs-api/) — The Jobs API from WFH Alert — 1 operation(s) for jobs.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [WFH Alert Agentic Access](https://apis.io/agentic-access/wfhalert-com/wfhalert-com-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [Health](https://apis.io/schemas/wfhalert-com/wfhalert-com-health/)
+- [Job](https://apis.io/schemas/wfhalert-com/wfhalert-com-job/)
+- [JobsPage](https://apis.io/schemas/wfhalert-com/wfhalert-com-jobs-page/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Wfhalert Com Context](https://apis.io/jsonld/wfhalert-com/wfhalert-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [WFH Alert API Rules](https://apis.io/rules/wfhalert-com/wfhalert-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [WFH Alert Domain Security](https://apis.io/security/wfhalert-com/wfhalert-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.wfhalert.com)
+- [Documentation](https://www.wfhalert.com/api)
+- [Getting started](https://www.wfhalert.com/p/work-setup-among-remote)
+- [API reference](https://www.wfhalert.com/api/openapi.yaml)
+- [Terms of service](https://www.wfhalert.com/terms-of-use)
+- [Privacy policy](https://www.wfhalert.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 37.9** — thin · rubric 0.28.0 · scored 2026-11-16
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 52.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 17.0 |
+
+**Agent readiness 25.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/wfhalert-com/](https://apis.io/providers/wfhalert-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for WFH Alert: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/wfhalert-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
